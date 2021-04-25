@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
+/*Home page: 1-392
+Tela de cadastro: 400-549
+Tela de cadastro 2: 550-x*/
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +12,7 @@
 
 .container {
     background-color: #211F1F;
-    width: 1519px;
+    width: 1536px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -164,7 +168,8 @@ h1 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    line-height: 52px;
+    line-height: 45px;
+    margin-top: 10px;
 }
 
 .retangulo img {
@@ -214,7 +219,7 @@ hr {
 h2 {
     margin-left: 120px;
     margin-right: 120px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -240,6 +245,7 @@ h2 {
     font-weight: bold;
     color: #ffffff;
     margin-left: 110px;
+    padding-top: 10px;
 }
 
 .article span {
@@ -277,7 +283,7 @@ h2 {
     /* justify-content: space-between; */
     width: 400px;
     height: 600px;
-    margin-left: 1030px;
+    margin-left: 1000px;
     position: absolute;
     top: 10px;
 
@@ -313,7 +319,7 @@ h2 {
 }
 
 footer {
-    background-color: #211F1F;
+    background-color: #000;
     height: 350px;
     display: flex;
     justify-content: center;
@@ -337,6 +343,7 @@ footer {
 }
 .container-links li {
     color: white;
+    margin-top: 4px;
 }
 .container-links a {
     font-family: 'Titillium Web', sans-serif;
@@ -389,4 +396,243 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
+}
+
+
+
+
+.banner-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(drive-download-20210309T232536Z-001/tetris-effect-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 175px;
+    margin-top: 50px;
+}
+
+.cadastro {
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: rgb(245, 238, 238);
+}
+
+.secao-equipe-cadastro {
+    background-color: #211F1F;
+    display: flex;
+    justify-content: center;
+}
+
+.equipe-cadastro-container {
+    background-color: black;
+    border: solid white 1px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+.equipe-cadastro {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipe-cadastro span {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.equipe-cadastro-button {
+    background-color: #016AB7;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 193px;
+}
+
+.equipe-cadastro-button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ol {
+    margin-bottom: 5px;
+}
+
+.ol-spacing {
+    margin-top: 15px;
+}
+
+.equipe-cadastro ul {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.secao-lista-times {
+    background-color: #211F1F;
+    display: flex;
+    justify-content: center;
+}
+
+.secao-lista-times .lista-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-times {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.lista-titulo {
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.tabela-times {
+    width: 600px;
+    margin-top: 15px;
+    border: solid white 1px;
+}
+
+.tabela-times th{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    width: 600px;
+    height: 40px;
+}
+
+.tabela-times span {
+    margin-right: 100px;
+}
+
+.tabela-times td {
+    background-color: #211f21;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 50px;
+}
+
+.borda {
+    border-top: solid white 1px;
+}
+
+.tabela-times img {
+    margin-right: 140px;
+    height: 35px;
+    width: 35px;
+}
+
+
+
+.banner-cadastro-jogador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(drive-download-20210309T232536Z-001/tetris-effect-banner.jpg);
+    background-repeat: no-repeat;
+    height: 175px;
+    margin-top: 50px;
+    background-position: top;
+}
+
+.ol-spacing-equipe {
+    margin-top: 50px;
+}
+
+.jogador-cadastro-container {
+    background-color: black;
+    border: solid white 1px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+.jogador-cadastro-button {
+    background-color: #016AB7;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 193px;
+    margin-top: 30px;
+}
+
+.jogador-cadastro-button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tabela-jogador {
+    width: 600px;
+    margin-top: 15px;
+    border: solid white 1px;
+}
+
+.tabela-jogador th{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    width: 600px;
+    height: 40px;
+}
+
+.tabela-jogador span {
+    margin-right: 100px;
+}
+
+.tabela-jogador th span {
+    margin-right: 155px;
+}
+
+.tabela-jogador td {
+    background-color: #211f21;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 50px;
 }
